@@ -3,6 +3,7 @@
   --title-text-color: #212121;
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
+  --button-color: #f5f4fa;
 }
 
 body {
@@ -60,6 +61,7 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+  font-style: normal;
 }
 
 .contacts .link:hover,
@@ -118,14 +120,6 @@ ul {
   line-height: 1.18;
 }
 
-/* Button */
-
-.button {
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
-  cursor: pointer;
-}
-
 /* Futer */
 
 .address-link {
@@ -133,4 +127,40 @@ ul {
   font-size: 14px;
   line-height: 1.71px;
   list-style: none;
+  font-style: normal;
+}
+/* Button */
+
+.button {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+.button-filter {
+  color: var(--title-text-color);
+  background-color: var(--button-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  cursor: pointer;
+}
+
+.button-filter:hover,
+.button-filter:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+/*  Portfolio */
+
+.gallery-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.gallery-text {
+  font-size: 16px;
+  line-height: 30px;
 }
